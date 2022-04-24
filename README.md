@@ -1,1 +1,13 @@
 # CS340-Client-Server-Development
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+Keeping code clean and concise is the key to keeping programs maintainable, and combined with good documentation readable. Similarly, keeping components of the code generically named allows them to be adaptable. Working with the CRUD module in this way allowed me to use it with multiple types of programs since it was a simple permissions module. This could be re-used in the future for other projects that require any kind of read/write permissions, or other database projects that utilize users.
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+Approaching a problem in computer science is interesting due to how differently each person does it. I like to break down the requirements into smaller pieces and work with them individually before working with them as a whole. Sometimes this works out well, and other times I have to adapt my method. For example, in the CRUD module it was just as easy to work on the read one and read all separately or together, but since they performed similar operations I chose to work on them together. Going forward, I think, that I would maintain a similar philosophy to how I approach coding problems. When thinking about future databases this method seems best as it would be making small controlled changes at a time, versus large unpredictable ones.
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists solve problems by creating tools to solve problems. From a professional standpoint this matters because time is money, and saving time for coworkers and the company/client is the goal. This type of project would help GS by allowing them to add users to the database with CRUD permissions, and not have to worry about something not working inherently, due to past users working correctly. Similarly, this project allows for a more user-friendly approach to parsing a database.
